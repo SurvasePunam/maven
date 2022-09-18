@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 06 14:58:24 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (126 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNgPractice.TestCase2()'><b>TestCase2</b><br>Test class: TestNGlearning.MavenProject.TestNgPractice</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNgPractice@3541cb24</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNgPractice.TestCase4()'><b>TestCase4</b><br>Test class: TestNGlearning.MavenProject.TestNgPractice</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNgPractice@3541cb24</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGClassB.testA()'><b>testA</b><br>Test class: TestNGlearning.MavenProject.TestNGClassB</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGClassB@2beee7ff</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGkeywords.testA()'><b>testA</b><br>Test class: TestNGlearning.MavenProject.TestNGkeywords</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGkeywords@52102734</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase4()'><b>TestCase4</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGClassB.testB()'><b>testB</b><br>Test class: TestNGlearning.MavenProject.TestNGClassB</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGClassB@2beee7ff</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGAnnotation.TestCase1()'><b>TestCase1</b><br>Test class: TestNGlearning.MavenProject.TestNGAnnotation</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGAnnotation@2525ff7e</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase5()'><b>TestCase5</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGAnnotation.TestCase2()'><b>TestCase2</b><br>Test class: TestNGlearning.MavenProject.TestNGAnnotation</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGAnnotation@2525ff7e</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase5()'><b>TestCase5</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGClassA.testB()'><b>testB</b><br>Test class: TestNGlearning.MavenProject.TestNGClassA</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGClassA@306cf3ea</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGClassB.testC()'><b>testC</b><br>Test class: TestNGlearning.MavenProject.TestNGClassB</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGClassB@2beee7ff</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGkeywords.testC()'><b>testC</b><br>Test class: TestNGlearning.MavenProject.TestNGkeywords</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGkeywords@52102734</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGkeywords.testB()'><b>testB</b><br>Test class: TestNGlearning.MavenProject.TestNGkeywords</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGkeywords@52102734</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGClassA.testA()'><b>testA</b><br>Test class: TestNGlearning.MavenProject.TestNGClassA</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGClassA@306cf3ea</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase5()'><b>TestCase5</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNgPractice.TestCase3()'><b>TestCase3</b><br>Test class: TestNGlearning.MavenProject.TestNgPractice</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNgPractice@3541cb24</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGkeywords.testC()'><b>testC</b><br>Test class: TestNGlearning.MavenProject.TestNGkeywords</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGkeywords@52102734</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNgPractice.TestCase1()'><b>TestCase1</b><br>Test class: TestNGlearning.MavenProject.TestNgPractice</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNgPractice@3541cb24</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase2()'><b>TestCase2</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase1()'><b>TestCase1</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestNGClassA.testC()'><b>testC</b><br>Test class: TestNGlearning.MavenProject.TestNGClassA</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestNGClassA@306cf3ea</td></tr>
+<tr>
+<td title='TestNGlearning.MavenProject.TestngKeywordDemo.TestCase5()'><b>TestCase5</b><br>Test class: TestNGlearning.MavenProject.TestngKeywordDemo</td>
+<td></td>
+<td>0</td>
+<td>TestNGlearning.MavenProject.TestngKeywordDemo@5136d012</td></tr>
+</table><p>
+</body>
+</html>
